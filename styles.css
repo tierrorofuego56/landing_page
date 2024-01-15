@@ -1,0 +1,179 @@
+body{
+    font-family: 'Noto Sans Cherokee', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+ul{
+    list-style-type: none;
+   
+    display: flex;
+    gap: 16px;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    margin: 15px 0px;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.header{
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer{
+    height: 72px;
+    background-color: #1f2937;
+    color: #f9faf8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*SECTION ONE*/
+
+.section.one{
+    height: 500px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    gap: 150px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+}
+
+.main{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.secondary{
+    font-size: 18px;
+    font-weight: 100;
+    color: #e5e7eb;
+}
+
+.content.one{
+    max-width: 500px;
+}
+
+.image.one{
+    width: 500px;
+    height: 250px;
+    background-color: darkgray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*SECTION TWO*/
+
+.title{
+
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 50px;
+}
+
+.section.two{
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content.two{
+    display: flex;
+    gap: 52px;
+}
+
+.item{
+    max-width: 200px;
+}
+
+.image.two{
+   height: 150px;
+   width: 150px;
+   border: 5px solid #3882f6;
+   border-radius: 10px;
+}
+
+.text.two{
+    margin-top: 15px;
+    max-width: 160px;
+    text-align: center;
+}
+
+
+/*SECTION THREE*/
+
+.section.three{
+    height: 500px;
+    background-color: #e5e7eb;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    max-width: 800px;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+    margin: 50px;
+
+}
+
+.name{
+    margin-left: 500px;
+    font-weight: 900;
+}
+
+/*SECTION FOUR*/
+
+.section.four{
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    height: 150px;
+    width: 1250px;
+    border-radius: 5px;
+    background-color: #3882f6;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
